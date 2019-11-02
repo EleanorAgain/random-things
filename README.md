@@ -1,2 +1,2 @@
 # random-things
-v2 some sprtes changes
+v2 some sprites changes
