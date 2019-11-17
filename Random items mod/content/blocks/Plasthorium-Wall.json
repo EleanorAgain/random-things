@@ -1,1 +1,0 @@
-{"name":"Plasthorium Walls","description":"A green radioactive wall","type":"Wall","health":4000,"size":1,"category":"defense","requirements":[{"item":"Plasthorium","amount":6}],"research":"phase-wall"}
