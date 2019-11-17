@@ -1,0 +1,9 @@
+{
+"name":"NukaCola",
+"description":"The apocalypse is near!"
+"type":"material",
+"radioactivity":0.5,
+"explosivity":0.25,
+"hardness":2,
+"color":"413022",
+}

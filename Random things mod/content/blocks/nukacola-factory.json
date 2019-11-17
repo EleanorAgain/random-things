@@ -1,0 +1,36 @@
+{
+"name":"NukaCola Factory",
+"description":"The NukaCola from Fallout,but more useless",
+"type":"genericCrafter",
+"liquidCapacity":50,
+"outputItem":{
+                         "item":"nukacola",
+                         "amount":2
+                       },
+"size":3,
+"hasPower":true,
+"hasLiquids":true,
+"hasItems":true,
+"craftTime":180,
+"updateEffect":"nuclearsmoke",
+"consumes":{
+             "power":0.5,
+             "items":{
+                  "items":[
+                       {"item":"crystalic-sugar","amount":1},
+                       {"item":"metaglass","amount":1}
+                               ]
+                           },
+             "liquid":
+                   {"liquid":"biofuel","amount":0.2}
+                      },
+"requirements":[
+            {"item":"metaglass","amount":100},
+            {"item":"titanium","amount":150},
+            {"item":"surge-alloy","amount":50}
+                           ],
+"category":"crafting",
+"idleSound":"respawning",
+"idleSoundVolume":0.5,
+"research":"synthesizer"
+}

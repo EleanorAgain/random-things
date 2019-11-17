@@ -1,0 +1,8 @@
+{
+"name":"Biofuel",
+"description":"An organic fuel,which is good for creating energy",
+"temperature":0.2,
+"viscosity":0.5,
+"effect":"tarred",
+"color":"422f25"
+}

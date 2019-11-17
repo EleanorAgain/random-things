@@ -1,0 +1,31 @@
+{
+"name":"Plant Generator",
+"description":"A generator which use solid biofuel to produce medium amounts of energy",
+"type":"singleTypeGenerator",
+"generateEffect":"generatespark",
+"size":2,
+"hasItems":true,
+"itemDuration":60,
+"consumes": {
+        "items":{"items":[{"item":"solidified-biofuel","amount":1}],
+    }
+},
+"powerProduction":30,
+"health":500,
+"category":"power",
+"requirements":[
+                          {
+                         "item":"titanium",
+                         "amount":300
+                           },
+                           {
+                         "item":"surge-alloy",
+                         "amount":100
+                           },
+                           {
+                         "item":"silicon",
+                         "amount":300
+                           }
+                           ]
+}
+           

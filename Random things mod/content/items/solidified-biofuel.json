@@ -1,0 +1,9 @@
+{
+"name":"Solidified Biofuel",
+"description":"The simpliest form of fuel",
+"hardness":2,
+"cost":1,
+"color":"8B4726",
+"explosiviness":0.2,
+"flammability":1
+}

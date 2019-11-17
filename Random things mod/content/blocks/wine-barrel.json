@@ -1,0 +1,49 @@
+{
+"name":"Wine Barrel",
+"description":"When you have so much barrels,just do something with them",
+"type":"chargeTurret",
+"size":2,
+"health":750,
+"range":200,
+"reload":300,
+"targetAir":true,
+"targetGround":true,
+"shootSound":"boom",
+"chargeTime":10,
+"chargeEffects":5,
+"chargeMaxDelay":10,
+"research":"ripple",
+"hasPower":true,
+"shootType":{
+		    "type":"BasicBulletType",
+			"speed": 7,
+			"damage": 50,
+			"bulletWidth": 25,
+			"bulletHeight": 25,
+			"shootEffect": "shootBig2",
+			"hitEffect": "hitBulletBig",
+			"lifetime": 120,
+			"frontColor": "000000",
+			"backColor": "000000",
+			"trailColor": "e5edff",
+     "bulletsprite":"random-things-mod-bomb"
+		  },
+"consumes":{
+               "power":0.7
+                      },
+"category":"turret",           
+"requirements":[
+             {
+               "item":"surge-alloy",
+               "amount":50
+             },
+             {
+               "item":"copper",
+               "amount":100
+             },
+             {
+               "item":"titanium",
+               "amount":50
+             }
+                           ]
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Glat Factory",
+    "description": "An unit that is random",
+    "category": "units",
+    "produceTime": 200,
+    "requirements": [
+        {
+            "amount": 50,
+            "item": "titanium"
+        },
+        {
+            "amount":70,
+            "item": "silicon"
+        }
+    ],
+    "research": "wraith-factory",
+    "size": 2,
+    "type": "UnitFactory",
+    "unitType": "glat-unit",
+    "consumes": {
+        "power": 0.7,
+        "items": {
+            "items":[
+                {
+                    "amount": 10,
+                    "item": "silicon"
+                },
+                {
+                    "amount": 30,
+                    "item": "titanium"
+                }
+            ],
+        }
+    }
+}
+ 

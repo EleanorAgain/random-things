@@ -1,0 +1,31 @@
+{
+      "type": "separator",
+      "name": "Molten Plastanium Separator",
+      "description": "Separates molten plastanium into graphite or coal in a 50/50 split.",
+      "liquidCapacity": 50,
+      "results": [
+            {"item": "coal", "amount": 1.0},
+            {"item": "graphite", "amount": 1.0},
+      ]
+      "size": 2,
+      "hasPower": true,
+      "hasLiquids": true,
+      "craftTime": 10,
+      "updateEffect": "smeltsmoke",
+      "consumes":{
+    "liquid": {
+        "liquid": "Molten-Plastanium",
+        "amount": 0.6
+    },
+    "power": 0.6
+    },
+      "requirements": [
+            { "item": "lead", "amount": 50 },
+            { "item": "titanium", "amount": 80 },
+            { "item": "silicon", "amount": 20 }
+      ],
+      "category": "crafting",
+      "research": "kiln",
+      "idleSound": "respawning",
+      "idleSoundVolume": 0.5
+}

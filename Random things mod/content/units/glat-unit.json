@@ -1,0 +1,31 @@
+{
+	"name": "Glat",
+	"type": "wraith",
+	"description": "A fighter unit wielding tiny cyclone turrets.",
+	"health": 650,
+	"flying": true,
+	"speed": 0.5,
+	"mass": 25,
+	"rotatespeed": 0.6,
+	"maxVelocity": 1.5,
+	"drag": 0.5,
+	"rotateWeapons": true,
+	"weapon":{
+		"name": "mini-cyclone",
+		"bullet":
+		{
+			"type": "BasicBulletType",
+			"lifetime": 30,
+			"speed": 4,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"damage": 45,
+			"splashDamageRadius": 5,
+			"splashDamage": 10,
+     "bulletsprite":"random-items-mod-bomb"
+		},
+		"shootSound": "shootBig",
+		"reload": 20,
+		"width": 5
+	}
+}

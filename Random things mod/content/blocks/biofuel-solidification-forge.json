@@ -1,0 +1,43 @@
+{
+"name":"Biofuel Solidification Forge",
+"description":"It solidify the biofuel with the help of the properties of coal,to make a good fuel",
+"liquidCapacity":50,
+"outputItem":{
+                       "item":"solidified-biofuel",
+                       "amount":1
+                      },
+"size":3,
+"hasPower":true,
+"hasLiquids":true,
+"hasItems":true,
+"craftTime":30,
+"updateEffect":"smeltsmoke",
+"consumes":{
+               "power":0.4,
+               "items":{"items":[{"item":"coal","amount":2}]},
+               "liquid":
+                      {
+                       "liquid":"biofuel",
+                       "amount":0.5
+                       }
+                      },    
+"requirements":[
+              {
+               "item":"silicon",
+               "amount":200
+              },
+              {
+                "item":"titanium",
+                "amount":100
+              },
+              {
+                "item":"plastanium",
+                "amount":100
+               }
+                            ],
+"category":"crafting",
+"idleSound":"respawning",
+"idleSoundVolume":0.5,
+"research":"kiln",
+"type":"genericCrafter"
+}
